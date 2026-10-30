@@ -1,0 +1,10 @@
+{
+  "name": "tank-nexus-node-multiplayer",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Tank Nexus multiplayer: One-link browser multiplayer with dedicated Node.js room server",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "check": "node --check server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"ws": "^8.18.0"}
+}
